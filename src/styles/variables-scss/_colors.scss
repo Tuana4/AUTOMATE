@@ -1,20 +1,15 @@
-/**
- * Colors variables
- */
-@use 'sass:map';
-
 $theme-colors: (
   default: (
-    primary: #ff0a78,
-    secondary: #160019,
+    primary: #160019,
+    secondary: #ff0a78,
     shadow: #7a1fff,
     white: #f7efff,
   ),
 
   contrasted: (
-    primary: #f7efff,
-    secondary: #160019,
-    shadow: #5b2a86,
-    white: #fff7fc,
+    primary: #160019,
+    secondary: #ff0a78,
+    shadow: #7a1fff,
+    white: #f7efff,
   ),
 );
