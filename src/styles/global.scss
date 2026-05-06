@@ -19,3 +19,38 @@
 @import '/fonts/bigger-display.css';
 @import '/fonts/editorial-new.css';
 @import '/fonts/fraktion-mono.css';
+html,
+body,
+.site-wrapper {
+  background: #160019 !important;
+  color: #ff0a78 !important;
+}
+
+.s-hero,
+.s-hero * {
+  color: #ff0a78 !important;
+  border-color: #ff0a78 !important;
+}
+
+.s__border,
+.site-mount,
+.site-intro__border,
+.site-contrast-mask {
+  background: #ff0a78 !important;
+  border-color: #ff0a78 !important;
+}
+
+a-waves svg,
+a-waves path,
+.js-line {
+  stroke: #ff0a78 !important;
+}
+
+.s__title :global(.char__inner):before,
+.s__title :global(.char__inner):after {
+  color: #ff0a78 !important;
+}
+
+.site-intro {
+  background: #160019 !important;
+}
